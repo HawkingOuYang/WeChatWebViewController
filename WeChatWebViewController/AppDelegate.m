@@ -2,11 +2,16 @@
 //  AppDelegate.m
 //  WeChatWebViewController
 //
-//  Created by OYXJ on 2016/12/20.
-//  Copyright © 2016年 OYXJ. All rights reserved.
+//  Created by HawkingOuYang.com on 2016/12/20.
+//  Copyright © 2016年 [OYXJlucky@163.com] . All rights reserved.
 //
 
 #import "AppDelegate.h"
+
+
+#import "LuckyDrawViewController.h"
+#import "HTmWebViewNavigationViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -19,7 +24,22 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = [UIViewController new];
+    
     [self.window makeKeyAndVisible];
+    
+    
+    {// TODO: test code
+        LuckyDrawViewController *vc = [[LuckyDrawViewController alloc] init];
+        HTmWebViewNavigationViewController *nav = [[HTmWebViewNavigationViewController alloc] initWithRootViewController:vc];
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [self.window.rootViewController presentViewController:nav animated:YES completion:nil];
+        });
+    }// TODO: test code
+
+    
     return YES;
 }
 
