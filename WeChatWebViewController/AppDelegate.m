@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 
 
+#import "CNavigationController.h"
+
 #import "LuckyDrawViewController.h"
 #import "HTmWebViewNavigationViewController.h"
 
@@ -20,25 +22,74 @@
 @implementation AppDelegate
 
 
+#pragma mark - test code
+
+- (void)push
+{// TODO: test code
+    LuckyDrawViewController *vc = [[LuckyDrawViewController alloc] init];
+    
+    [((HTmWebViewNavigationViewController *)(self.window.rootViewController)) pushViewController:vc animated:YES];
+}// TODO: test code
+
+- (void)present
+{// TODO: test code
+    LuckyDrawViewController *vc = [[LuckyDrawViewController alloc] init];
+    HTmWebViewNavigationViewController *nav = [[HTmWebViewNavigationViewController alloc] initWithRootViewController:vc];
+    
+    [self.window.rootViewController presentViewController:nav animated:YES completion:nil];
+}// TODO: test code
+
+
+
+#pragma mark - app life cycle
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    self.window.rootViewController = [UIViewController new];
+    UIViewController *rootVC = [UIViewController new];
+    rootVC.title = @"我是根页面啦~ :)";
+    //CNavigationController *nav = [[CNavigationController alloc] initWithRootViewController:rootVC];
+    HTmWebViewNavigationViewController *nav = [[HTmWebViewNavigationViewController alloc] initWithRootViewController:rootVC];
+    
+    self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
     
     
     {// TODO: test code
-        LuckyDrawViewController *vc = [[LuckyDrawViewController alloc] init];
-        HTmWebViewNavigationViewController *nav = [[HTmWebViewNavigationViewController alloc] initWithRootViewController:vc];
+        UIButton *btn1 = UIButton.new;
+        UIButton *btn2 = UIButton.new;
         
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [self.window.rootViewController presentViewController:nav animated:YES completion:nil];
-        });
+        btn1.backgroundColor = SystemOrange;
+        btn2.backgroundColor = SystemBlue;
+        
+        [btn1 setTitle:@"push"      forState:UIControlStateNormal];
+        [btn2 setTitle:@"present"   forState:UIControlStateNormal];
+        
+        [btn1 addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
+        [btn2 addTarget:self action:@selector(present) forControlEvents:UIControlEventTouchUpInside];
+        
+        [rootVC.view addSubview: btn1];
+        [rootVC.view addSubview: btn2];
+        
+        UIView *superView = rootVC.view;
+        [btn1 mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerX.equalTo(superView.mas_centerX);
+            make.centerY.equalTo(superView.mas_centerY).offset(-30);
+            
+            make.size.mas_equalTo(CGSizeMake(R(50), R(50)));//看我怎么适配屏幕,这个R
+        }];
+        [btn2 mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerX.equalTo(superView.mas_centerX);
+            make.centerY.equalTo(superView.mas_centerY).offset(+30+100);
+            
+            make.size.mas_equalTo(CGSizeMake(R(80), R(80)));//看我怎么适配屏幕,这个R
+        }];
     }// TODO: test code
-
+    
+    
     
     return YES;
 }
