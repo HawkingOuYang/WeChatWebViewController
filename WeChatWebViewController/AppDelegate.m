@@ -59,6 +59,36 @@
     
     
     {// TODO: test code
+        UIView *superView = rootVC.view;
+        
+        UILabel *desLb = UILabel.new;
+        desLb.text = @"\
+        WeChatWebViewController \
+        \n\
+        仿造 微信webView效果，包括：\
+        \n\
+        1进度条，\
+        \n\
+        2左滑返回上个网页或者直接关闭(像UINavigationController)，\
+        \n\
+        3适配iOS8.0的UIWebView(特别处理UIWebView内存泄漏)和WKWebView，\
+        \n\
+        4支持JS和OC交互HybridApp，\
+        \n\
+        5支持WebViewProxy \
+        ";
+        desLb.numberOfLines = 0;
+        desLb.textAlignment = NSTextAlignmentLeft;
+        
+        [rootVC.view addSubview: desLb];
+        
+        [desLb mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(superView);
+            make.left.equalTo(superView);
+            make.width.equalTo(superView);
+        }];
+        
+        
         UIButton *btn1 = UIButton.new;
         UIButton *btn2 = UIButton.new;
         
@@ -74,7 +104,6 @@
         [rootVC.view addSubview: btn1];
         [rootVC.view addSubview: btn2];
         
-        UIView *superView = rootVC.view;
         [btn1 mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerX.equalTo(superView.mas_centerX);
             make.centerY.equalTo(superView.mas_centerY).offset(-30);
