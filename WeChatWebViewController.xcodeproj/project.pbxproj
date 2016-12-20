@@ -32,6 +32,7 @@
 		D5DD74271E09780C0072173E /* CNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD74151E09780C0072173E /* CNavigationController.m */; };
 		D5DD74281E09780C0072173E /* HTmReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD741D1E09780C0072173E /* HTmReachabilityManager.m */; };
 		D5DD74291E09780C0072173E /* PlatformUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD74201E09780C0072173E /* PlatformUtil.m */; };
+		D5DD742B1E098F2B0072173E /* WeChatWebViewController_Demo_Gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5DD742A1E098F2B0072173E /* WeChatWebViewController_Demo_Gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		D5DD741D1E09780C0072173E /* HTmReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTmReachabilityManager.m; sourceTree = "<group>"; };
 		D5DD741F1E09780C0072173E /* PlatformUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformUtil.h; sourceTree = "<group>"; };
 		D5DD74201E09780C0072173E /* PlatformUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlatformUtil.m; sourceTree = "<group>"; };
+		D5DD742A1E098F2B0072173E /* WeChatWebViewController_Demo_Gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WeChatWebViewController_Demo_Gif.gif; sourceTree = "<group>"; };
 		DCC23188AD3027992291BD48 /* libPods-WeChatWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 		D5DD72F41E09322E0072173E = {
 			isa = PBXGroup;
 			children = (
+				D5DD742A1E098F2B0072173E /* WeChatWebViewController_Demo_Gif.gif */,
 				D5DD733C1E0934D60072173E /* TEST */,
 				D5DD73111E09349E0072173E /* Classes */,
 				D5DD72FF1E09322E0072173E /* WeChatWebViewController */,
@@ -442,6 +445,7 @@
 			files = (
 				D5DD73411E0934D60072173E /* LuckyDrawShare.js in Resources */,
 				D5DD73071E09322E0072173E /* Assets.xcassets in Resources */,
+				D5DD742B1E098F2B0072173E /* WeChatWebViewController_Demo_Gif.gif in Resources */,
 				D5DD730A1E09322E0072173E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
