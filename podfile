@@ -1,0 +1,88 @@
+platform :ios, '7.0'
+
+
+
+def common_used_pods #<---- 定义 common_used_pods 开始 ---->#
+
+############################
+##      技    术    栈     ##
+############################
+
+
+
+#-------- (6) 请定义此section名字 --------#
+
+
+#-------- (5) 模块化、组件化 --------#
+
+
+
+
+#-------- (4) 界面层组件 --------#
+
+
+# 颜色转图片
+pod 'UIImage+ImageWithColor'
+
+
+
+pod 'Masonry'
+
+#-------- (3) 数据层组件 --------#
+
+
+
+#-------- (2) 网络层组件 --------#
+
+
+
+# 网络层
+pod 'AFNetworking', '~> 3.0'
+pod 'Reachability', '~> 3.2'
+
+#-------- (1) 集成功能 --------#
+
+
+
+# 热修复
+#pod 'JSPatch'
+
+# JS与ObjC交互
+pod 'WebViewProxy'  #webview网络代理
+pod 'WebViewJavascriptBridge', '~> 4.1.5'
+pod 'NJKWebViewProgress'
+
+
+
+#-------- (0) 集成工具 --------#
+
+
+
+
+# 打印日志
+pod 'CocoaLumberjack'
+#-----------------------------#
+
+end #<---- 定义 common_used_pods 结束 ---->#
+
+
+
+
+
+
+
+
+
+
+
+#<---- 配置 target 开始 ---->#
+
+target 'WeChatWebViewController' do
+    common_used_pods
+end
+
+# target 'SomeTargetName' do
+#    common_used_pods
+# end
+
+#<---- 配置 target 结束 ---->#
