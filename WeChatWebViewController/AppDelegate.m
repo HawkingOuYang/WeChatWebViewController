@@ -63,6 +63,12 @@
         
         UILabel *desLb = UILabel.new;
         desLb.text = @"\
+        by 欧阳孝金 at HawkingOuYang.com \
+        \n\
+        on GitHub github.com/HawkingOuYang/WeChatWebViewController \
+        \n\
+        All rights reserved .\
+        \n\
         WeChatWebViewController \
         \n\
         仿造 微信webView效果，包括：\
@@ -106,7 +112,7 @@
         
         [btn1 mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerX.equalTo(superView.mas_centerX);
-            make.centerY.equalTo(superView.mas_centerY).offset(-30);
+            make.top.equalTo(desLb.mas_bottom).offset(10);
             
             make.size.mas_equalTo(CGSizeMake(R(50), R(50)));//看我怎么适配屏幕,这个R
         }];
