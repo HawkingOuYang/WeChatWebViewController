@@ -1,3 +1,58 @@
-PODFILE CHECKSUM: da39a3ee5e6b4b0d3255bfef95601890afd80709
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - Masonry (1.0.2)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - Reachability (3.2)
+  - UIImage+ImageWithColor (1.4.0)
+  - WebViewJavascriptBridge (4.1.5)
+  - WebViewProxy (1.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - CocoaLumberjack
+  - Masonry
+  - NJKWebViewProgress
+  - Reachability (~> 3.2)
+  - UIImage+ImageWithColor
+  - WebViewJavascriptBridge (~> 4.1.5)
+  - WebViewProxy
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  UIImage+ImageWithColor: 891401f732f2f332fefe68c2332c6c955c2a879c
+  WebViewJavascriptBridge: e7b6669bebfc4f151daa0fdec3c8c24c8dc3a24e
+  WebViewProxy: 3a2bf7cb0178fc2eef8d58013cd7ec35a7ab8980
+
+PODFILE CHECKSUM: 4c790930ffc6518c3aa7f38a7e3f2b1651729e11
 
 COCOAPODS: 1.0.0
