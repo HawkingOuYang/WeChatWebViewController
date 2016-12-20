@@ -7,13 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		946135948AC11319171B03BD /* libPods-WeChatWebViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC23188AD3027992291BD48 /* libPods-WeChatWebViewController.a */; };
 		D5DD73021E09322E0072173E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD73011E09322E0072173E /* main.m */; };
 		D5DD73051E09322E0072173E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD73041E09322E0072173E /* AppDelegate.m */; };
 		D5DD73071E09322E0072173E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DD73061E09322E0072173E /* Assets.xcassets */; };
 		D5DD730A1E09322E0072173E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DD73081E09322E0072173E /* LaunchScreen.storyboard */; };
+		D5DD73411E0934D60072173E /* LuckyDrawShare.js in Resources */ = {isa = PBXBuildFile; fileRef = D5DD733E1E0934D60072173E /* LuckyDrawShare.js */; };
+		D5DD73421E0934D60072173E /* LuckyDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD73401E0934D60072173E /* LuckyDrawViewController.m */; };
+		D5DD73441E0935B50072173E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DD73431E0935B50072173E /* UIKit.framework */; };
+		D5DD73461E0935BE0072173E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DD73451E0935BE0072173E /* CoreFoundation.framework */; };
+		D5DD73481E0935C50072173E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DD73471E0935C50072173E /* Foundation.framework */; };
+		D5DD73F91E0977F70072173E /* UIWebView+HTmUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD73EB1E0977F70072173E /* UIWebView+HTmUIWebView.m */; };
+		D5DD73FA1E0977F70072173E /* WKWebView+HTmWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD73ED1E0977F70072173E /* WKWebView+HTmWKWebView.m */; };
+		D5DD73FB1E0977F70072173E /* HTmWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD73F01E0977F70072173E /* HTmWebViewController.m */; };
+		D5DD73FC1E0977F70072173E /* HTmWebViewNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD73F21E0977F70072173E /* HTmWebViewNavigationViewController.m */; };
+		D5DD73FD1E0977F70072173E /* UIWebView+Clean.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD73F51E0977F70072173E /* UIWebView+Clean.m */; };
+		D5DD73FE1E0977F70072173E /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD73F81E0977F70072173E /* WKWebView+SynchronousEvaluateJavaScript.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D5DD74211E09780C0072173E /* NSMutableDictionary+xj_Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD74021E09780C0072173E /* NSMutableDictionary+xj_Extra.m */; };
+		D5DD74221E09780C0072173E /* UIColor+xj_Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD74051E09780C0072173E /* UIColor+xj_Extra.m */; };
+		D5DD74231E09780C0072173E /* HTmAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD74091E09780C0072173E /* HTmAlert.m */; };
+		D5DD74241E09780C0072173E /* HTmAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD740B1E09780C0072173E /* HTmAlertAction.m */; };
+		D5DD74251E09780C0072173E /* HTmPlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD740E1E09780C0072173E /* HTmPlaceHolderView.m */; };
+		D5DD74261E09780C0072173E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD74121E09780C0072173E /* BaseViewController.m */; };
+		D5DD74271E09780C0072173E /* CNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD74151E09780C0072173E /* CNavigationController.m */; };
+		D5DD74281E09780C0072173E /* HTmReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD741D1E09780C0072173E /* HTmReachabilityManager.m */; };
+		D5DD74291E09780C0072173E /* PlatformUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD74201E09780C0072173E /* PlatformUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43C80561068EE5F4572F55D9 /* Pods-WeChatWebViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatWebViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatWebViewController/Pods-WeChatWebViewController.release.xcconfig"; sourceTree = "<group>"; };
+		8ED8F75BE5624EE97DE0D31D /* Pods-WeChatWebViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatWebViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatWebViewController/Pods-WeChatWebViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		D5DD72FD1E09322E0072173E /* WeChatWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DD73011E09322E0072173E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D5DD73031E09322E0072173E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -21,6 +44,48 @@
 		D5DD73061E09322E0072173E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5DD73091E09322E0072173E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5DD730B1E09322E0072173E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DD733E1E0934D60072173E /* LuckyDrawShare.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = LuckyDrawShare.js; sourceTree = "<group>"; };
+		D5DD733F1E0934D60072173E /* LuckyDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyDrawViewController.h; sourceTree = "<group>"; };
+		D5DD73401E0934D60072173E /* LuckyDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyDrawViewController.m; sourceTree = "<group>"; };
+		D5DD73431E0935B50072173E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5DD73451E0935BE0072173E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D5DD73471E0935C50072173E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5DD734D1E09376E0072173E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D5DD73E91E0977F70072173E /* HTmWebViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTmWebViewProtocol.h; sourceTree = "<group>"; };
+		D5DD73EA1E0977F70072173E /* UIWebView+HTmUIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+HTmUIWebView.h"; sourceTree = "<group>"; };
+		D5DD73EB1E0977F70072173E /* UIWebView+HTmUIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+HTmUIWebView.m"; sourceTree = "<group>"; };
+		D5DD73EC1E0977F70072173E /* WKWebView+HTmWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+HTmWKWebView.h"; sourceTree = "<group>"; };
+		D5DD73ED1E0977F70072173E /* WKWebView+HTmWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+HTmWKWebView.m"; sourceTree = "<group>"; };
+		D5DD73EF1E0977F70072173E /* HTmWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTmWebViewController.h; sourceTree = "<group>"; };
+		D5DD73F01E0977F70072173E /* HTmWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTmWebViewController.m; sourceTree = "<group>"; };
+		D5DD73F11E0977F70072173E /* HTmWebViewNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTmWebViewNavigationViewController.h; sourceTree = "<group>"; };
+		D5DD73F21E0977F70072173E /* HTmWebViewNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTmWebViewNavigationViewController.m; sourceTree = "<group>"; };
+		D5DD73F41E0977F70072173E /* UIWebView+Clean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Clean.h"; sourceTree = "<group>"; };
+		D5DD73F51E0977F70072173E /* UIWebView+Clean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Clean.m"; sourceTree = "<group>"; };
+		D5DD73F71E0977F70072173E /* WKWebView+SynchronousEvaluateJavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+SynchronousEvaluateJavaScript.h"; sourceTree = "<group>"; };
+		D5DD73F81E0977F70072173E /* WKWebView+SynchronousEvaluateJavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+SynchronousEvaluateJavaScript.m"; sourceTree = "<group>"; };
+		D5DD74011E09780C0072173E /* NSMutableDictionary+xj_Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+xj_Extra.h"; sourceTree = "<group>"; };
+		D5DD74021E09780C0072173E /* NSMutableDictionary+xj_Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+xj_Extra.m"; sourceTree = "<group>"; };
+		D5DD74041E09780C0072173E /* UIColor+xj_Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+xj_Extra.h"; sourceTree = "<group>"; };
+		D5DD74051E09780C0072173E /* UIColor+xj_Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+xj_Extra.m"; sourceTree = "<group>"; };
+		D5DD74081E09780C0072173E /* HTmAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTmAlert.h; sourceTree = "<group>"; };
+		D5DD74091E09780C0072173E /* HTmAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTmAlert.m; sourceTree = "<group>"; };
+		D5DD740A1E09780C0072173E /* HTmAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTmAlertAction.h; sourceTree = "<group>"; };
+		D5DD740B1E09780C0072173E /* HTmAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTmAlertAction.m; sourceTree = "<group>"; };
+		D5DD740D1E09780C0072173E /* HTmPlaceHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTmPlaceHolderView.h; sourceTree = "<group>"; };
+		D5DD740E1E09780C0072173E /* HTmPlaceHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTmPlaceHolderView.m; sourceTree = "<group>"; };
+		D5DD74111E09780C0072173E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D5DD74121E09780C0072173E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D5DD74141E09780C0072173E /* CNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNavigationController.h; sourceTree = "<group>"; };
+		D5DD74151E09780C0072173E /* CNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNavigationController.m; sourceTree = "<group>"; };
+		D5DD74171E09780C0072173E /* NotificationNameDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationNameDefine.h; sourceTree = "<group>"; };
+		D5DD74181E09780C0072173E /* SystemDefineConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemDefineConstants.h; sourceTree = "<group>"; };
+		D5DD74191E09780C0072173E /* SystemDefineSysVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemDefineSysVersion.h; sourceTree = "<group>"; };
+		D5DD741C1E09780C0072173E /* HTmReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTmReachabilityManager.h; sourceTree = "<group>"; };
+		D5DD741D1E09780C0072173E /* HTmReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTmReachabilityManager.m; sourceTree = "<group>"; };
+		D5DD741F1E09780C0072173E /* PlatformUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformUtil.h; sourceTree = "<group>"; };
+		D5DD74201E09780C0072173E /* PlatformUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlatformUtil.m; sourceTree = "<group>"; };
+		DCC23188AD3027992291BD48 /* libPods-WeChatWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +93,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5DD73481E0935C50072173E /* Foundation.framework in Frameworks */,
+				D5DD73461E0935BE0072173E /* CoreFoundation.framework in Frameworks */,
+				D5DD73441E0935B50072173E /* UIKit.framework in Frameworks */,
+				946135948AC11319171B03BD /* libPods-WeChatWebViewController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A332D431F54EDD3E53BA4AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ED8F75BE5624EE97DE0D31D /* Pods-WeChatWebViewController.debug.xcconfig */,
+				43C80561068EE5F4572F55D9 /* Pods-WeChatWebViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6001E378C0A7AC79D96809BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD73471E0935C50072173E /* Foundation.framework */,
+				D5DD73451E0935BE0072173E /* CoreFoundation.framework */,
+				D5DD73431E0935B50072173E /* UIKit.framework */,
+				DCC23188AD3027992291BD48 /* libPods-WeChatWebViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D5DD72F41E09322E0072173E = {
 			isa = PBXGroup;
 			children = (
+				D5DD733C1E0934D60072173E /* TEST */,
+				D5DD73111E09349E0072173E /* Classes */,
 				D5DD72FF1E09322E0072173E /* WeChatWebViewController */,
 				D5DD72FE1E09322E0072173E /* Products */,
+				3A332D431F54EDD3E53BA4AC /* Pods */,
+				6001E378C0A7AC79D96809BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,8 +160,222 @@
 			isa = PBXGroup;
 			children = (
 				D5DD73011E09322E0072173E /* main.m */,
+				D5DD734D1E09376E0072173E /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5DD73111E09349E0072173E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD73AF1E093EBF0072173E /* WeChatWeb_Classes */,
+				D5DD73911E093EBE0072173E /* Other_Classes */,
+			);
+			name = Classes;
+			path = WeChatWebViewController/Classes;
+			sourceTree = "<group>";
+		};
+		D5DD733C1E0934D60072173E /* TEST */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD733D1E0934D60072173E /* Web */,
+			);
+			name = TEST;
+			path = WeChatWebViewController/TEST;
+			sourceTree = "<group>";
+		};
+		D5DD733D1E0934D60072173E /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD733E1E0934D60072173E /* LuckyDrawShare.js */,
+				D5DD733F1E0934D60072173E /* LuckyDrawViewController.h */,
+				D5DD73401E0934D60072173E /* LuckyDrawViewController.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		D5DD73911E093EBE0072173E /* Other_Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD74161E09780C0072173E /* MacroAndConstant */,
+				D5DD73FF1E09780C0072173E /* Category */,
+				D5DD74061E09780C0072173E /* CommonView */,
+				D5DD740F1E09780C0072173E /* CommonViewController */,
+				D5DD741A1E09780C0072173E /* Util */,
+			);
+			path = Other_Classes;
+			sourceTree = "<group>";
+		};
+		D5DD73AF1E093EBF0072173E /* WeChatWeb_Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD73EE1E0977F70072173E /* HTmWebViewController */,
+				D5DD73E81E0977F70072173E /* HTmWebView */,
+				D5DD73F31E0977F70072173E /* UIWebView+Clean */,
+				D5DD73F61E0977F70072173E /* WKWebView+SynchronousEvaluateJavaScript */,
+			);
+			path = WeChatWeb_Classes;
+			sourceTree = "<group>";
+		};
+		D5DD73E81E0977F70072173E /* HTmWebView */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD73E91E0977F70072173E /* HTmWebViewProtocol.h */,
+				D5DD73EA1E0977F70072173E /* UIWebView+HTmUIWebView.h */,
+				D5DD73EB1E0977F70072173E /* UIWebView+HTmUIWebView.m */,
+				D5DD73EC1E0977F70072173E /* WKWebView+HTmWKWebView.h */,
+				D5DD73ED1E0977F70072173E /* WKWebView+HTmWKWebView.m */,
+			);
+			path = HTmWebView;
+			sourceTree = "<group>";
+		};
+		D5DD73EE1E0977F70072173E /* HTmWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD73EF1E0977F70072173E /* HTmWebViewController.h */,
+				D5DD73F01E0977F70072173E /* HTmWebViewController.m */,
+				D5DD73F11E0977F70072173E /* HTmWebViewNavigationViewController.h */,
+				D5DD73F21E0977F70072173E /* HTmWebViewNavigationViewController.m */,
+			);
+			path = HTmWebViewController;
+			sourceTree = "<group>";
+		};
+		D5DD73F31E0977F70072173E /* UIWebView+Clean */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD73F41E0977F70072173E /* UIWebView+Clean.h */,
+				D5DD73F51E0977F70072173E /* UIWebView+Clean.m */,
+			);
+			path = "UIWebView+Clean";
+			sourceTree = "<group>";
+		};
+		D5DD73F61E0977F70072173E /* WKWebView+SynchronousEvaluateJavaScript */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD73F71E0977F70072173E /* WKWebView+SynchronousEvaluateJavaScript.h */,
+				D5DD73F81E0977F70072173E /* WKWebView+SynchronousEvaluateJavaScript.m */,
+			);
+			path = "WKWebView+SynchronousEvaluateJavaScript";
+			sourceTree = "<group>";
+		};
+		D5DD73FF1E09780C0072173E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD74001E09780C0072173E /* NSMutableDictionary+Extra */,
+				D5DD74031E09780C0072173E /* UIColor+Extra */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D5DD74001E09780C0072173E /* NSMutableDictionary+Extra */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD74011E09780C0072173E /* NSMutableDictionary+xj_Extra.h */,
+				D5DD74021E09780C0072173E /* NSMutableDictionary+xj_Extra.m */,
+			);
+			path = "NSMutableDictionary+Extra";
+			sourceTree = "<group>";
+		};
+		D5DD74031E09780C0072173E /* UIColor+Extra */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD74041E09780C0072173E /* UIColor+xj_Extra.h */,
+				D5DD74051E09780C0072173E /* UIColor+xj_Extra.m */,
+			);
+			path = "UIColor+Extra";
+			sourceTree = "<group>";
+		};
+		D5DD74061E09780C0072173E /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD74071E09780C0072173E /* HTmAlert */,
+				D5DD740C1E09780C0072173E /* HTmPlaceHolderView */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		D5DD74071E09780C0072173E /* HTmAlert */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD74081E09780C0072173E /* HTmAlert.h */,
+				D5DD74091E09780C0072173E /* HTmAlert.m */,
+				D5DD740A1E09780C0072173E /* HTmAlertAction.h */,
+				D5DD740B1E09780C0072173E /* HTmAlertAction.m */,
+			);
+			path = HTmAlert;
+			sourceTree = "<group>";
+		};
+		D5DD740C1E09780C0072173E /* HTmPlaceHolderView */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD740D1E09780C0072173E /* HTmPlaceHolderView.h */,
+				D5DD740E1E09780C0072173E /* HTmPlaceHolderView.m */,
+			);
+			path = HTmPlaceHolderView;
+			sourceTree = "<group>";
+		};
+		D5DD740F1E09780C0072173E /* CommonViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD74101E09780C0072173E /* BaseViewController */,
+				D5DD74131E09780C0072173E /* CNavigationController */,
+			);
+			path = CommonViewController;
+			sourceTree = "<group>";
+		};
+		D5DD74101E09780C0072173E /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD74111E09780C0072173E /* BaseViewController.h */,
+				D5DD74121E09780C0072173E /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		D5DD74131E09780C0072173E /* CNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD74141E09780C0072173E /* CNavigationController.h */,
+				D5DD74151E09780C0072173E /* CNavigationController.m */,
+			);
+			path = CNavigationController;
+			sourceTree = "<group>";
+		};
+		D5DD74161E09780C0072173E /* MacroAndConstant */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD74171E09780C0072173E /* NotificationNameDefine.h */,
+				D5DD74181E09780C0072173E /* SystemDefineConstants.h */,
+				D5DD74191E09780C0072173E /* SystemDefineSysVersion.h */,
+			);
+			path = MacroAndConstant;
+			sourceTree = "<group>";
+		};
+		D5DD741A1E09780C0072173E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD741B1E09780C0072173E /* HTmReachabilityManager */,
+				D5DD741E1E09780C0072173E /* PlatformUtil */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D5DD741B1E09780C0072173E /* HTmReachabilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD741C1E09780C0072173E /* HTmReachabilityManager.h */,
+				D5DD741D1E09780C0072173E /* HTmReachabilityManager.m */,
+			);
+			path = HTmReachabilityManager;
+			sourceTree = "<group>";
+		};
+		D5DD741E1E09780C0072173E /* PlatformUtil */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD741F1E09780C0072173E /* PlatformUtil.h */,
+				D5DD74201E09780C0072173E /* PlatformUtil.m */,
+			);
+			path = PlatformUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +385,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5DD730E1E09322E0072173E /* Build configuration list for PBXNativeTarget "WeChatWebViewController" */;
 			buildPhases = (
+				8B8FBC8B92584F735E5B4A69 /* 📦 Check Pods Manifest.lock */,
 				D5DD72F91E09322E0072173E /* Sources */,
 				D5DD72FA1E09322E0072173E /* Frameworks */,
 				D5DD72FB1E09322E0072173E /* Resources */,
+				508CF6DD278DBD9089338F7D /* 📦 Embed Pods Frameworks */,
+				33E1494EE6EA2E183B53FC8B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -102,6 +412,7 @@
 				TargetAttributes = {
 					D5DD72FC1E09322E0072173E = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WKVBJ7499G;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -129,6 +440,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5DD73411E0934D60072173E /* LuckyDrawShare.js in Resources */,
 				D5DD73071E09322E0072173E /* Assets.xcassets in Resources */,
 				D5DD730A1E09322E0072173E /* LaunchScreen.storyboard in Resources */,
 			);
@@ -136,13 +448,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33E1494EE6EA2E183B53FC8B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatWebViewController/Pods-WeChatWebViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		508CF6DD278DBD9089338F7D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatWebViewController/Pods-WeChatWebViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B8FBC8B92584F735E5B4A69 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D5DD72F91E09322E0072173E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D5DD73051E09322E0072173E /* AppDelegate.m in Sources */,
+				D5DD74261E09780C0072173E /* BaseViewController.m in Sources */,
+				D5DD73FD1E0977F70072173E /* UIWebView+Clean.m in Sources */,
+				D5DD74221E09780C0072173E /* UIColor+xj_Extra.m in Sources */,
+				D5DD73FE1E0977F70072173E /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */,
+				D5DD73F91E0977F70072173E /* UIWebView+HTmUIWebView.m in Sources */,
+				D5DD73FC1E0977F70072173E /* HTmWebViewNavigationViewController.m in Sources */,
+				D5DD74231E09780C0072173E /* HTmAlert.m in Sources */,
+				D5DD73421E0934D60072173E /* LuckyDrawViewController.m in Sources */,
+				D5DD74271E09780C0072173E /* CNavigationController.m in Sources */,
+				D5DD74251E09780C0072173E /* HTmPlaceHolderView.m in Sources */,
+				D5DD74241E09780C0072173E /* HTmAlertAction.m in Sources */,
+				D5DD73FA1E0977F70072173E /* WKWebView+HTmWKWebView.m in Sources */,
 				D5DD73021E09322E0072173E /* main.m in Sources */,
+				D5DD74291E09780C0072173E /* PlatformUtil.m in Sources */,
+				D5DD74281E09780C0072173E /* HTmReachabilityManager.m in Sources */,
+				D5DD74211E09780C0072173E /* NSMutableDictionary+xj_Extra.m in Sources */,
+				D5DD73FB1E0977F70072173E /* HTmWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,9 +628,13 @@
 		};
 		D5DD730F1E09322E0072173E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ED8F75BE5624EE97DE0D31D /* Pods-WeChatWebViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WKVBJ7499G;
+				GCC_PREFIX_HEADER = WeChatWebViewController/PrefixHeader.pch;
 				INFOPLIST_FILE = WeChatWebViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GitHub.HawkingOuYang.WeChatWebViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,9 +643,13 @@
 		};
 		D5DD73101E09322E0072173E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C80561068EE5F4572F55D9 /* Pods-WeChatWebViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WKVBJ7499G;
+				GCC_PREFIX_HEADER = WeChatWebViewController/PrefixHeader.pch;
 				INFOPLIST_FILE = WeChatWebViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GitHub.HawkingOuYang.WeChatWebViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,6 +675,7 @@
 				D5DD73101E09322E0072173E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
