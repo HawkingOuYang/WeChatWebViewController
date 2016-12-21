@@ -25,6 +25,8 @@ an iOS native ViewController like WeChat webview Controller, which includes:
 
 5 support WebViewProxy
 
+支持JS和OC交互，说明：http://hawkingouyang.com/2016/08/10/6_ObjC-JS-and-Native-WebView/
+
 Here is a demo gif:
 
 ![wechatwebviewcontroller_demo_gif](https://cloud.githubusercontent.com/assets/12937445/21358060/7a194c90-c712-11e6-8840-6f834538cf18.gif)
